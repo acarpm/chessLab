@@ -4,7 +4,7 @@
 
 ## 🏗️ Architecture Système
 
-\```
+```
 ┌─────────────────────────────────────────────────────┐
 │                    ESP32-C6                          │
 │  WiFi 6 · BLE 5 · RISC-V 160MHz · 512KB SRAM       │
@@ -12,7 +12,7 @@
        │              │               │
   Hall Sensors    RGB LEDs        Power Mgmt
   (8x8 = 64)     (8x8 = 64)      18650 Pack
-\```
+```
 
 ---
 
