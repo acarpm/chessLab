@@ -113,7 +113,7 @@ Total hauteur estimée : **~25-30mm**
 3. Même séquence que soft power off
 
 
-'''
+```
 VBAT
  │
  R1 10kΩ
@@ -133,4 +133,4 @@ VBAT
                                 │         │
                           GPIO_PWR_HOLD  GPIO_BTN_PWR
                           (maintien ON)  (lecture bouton)
-'''
+```
