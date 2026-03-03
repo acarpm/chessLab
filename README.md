@@ -2,7 +2,7 @@
 
 ---
 
-## 🏗️ Architecture Système
+## Architecture Système
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -16,12 +16,11 @@
 
 ---
 
-## 🔌 Stack Hardware Recommandé
+## HARDWARE
 
-### Capteurs Hall — **SS49E** ou **A3144**
-- SS49E = analogique → détection fine de la force du champ (meilleur pour distinguer pièces blanches/noires selon polarité aimant)
+### Capteurs Hall — **A3144**
 - A3144 = digital → simple présence/absence
-- **Choix : SS49E** pour plus de richesse
+- **Choix : A3144** pour simplicité et coût
 
 ### LEDs RGB — **WS2812B** (NeoPixel)
 - Adressables individuellement
@@ -36,26 +35,25 @@
 
 ### Power — 18650
 - **2× 18650 en parallèle** → ~6000mAh
-- **IP5306** comme IC de charge/gestion
+- **TP4056** comme IC de charge/gestion
 - **Régulateurs :**
-  - 5V/3A pour les WS2812B (buck converter MP1584)
+  - 5V/3A pour les WS2812B (buck converter MP3608)
   - 3.3V pour ESP32 + Hall (LDO AMS1117-3.3)
 
 ---
 
-## 📐 Layout PCB — Réflexions Clés
+## Layout PCB
 
 ### Routing challenge
 - **Serpentine WS2812B** : DATA IN → DATA OUT case par case
 - **Matrices Hall** : lignes/colonnes pour mux
 - **Épaisseur PCB** : 1.6mm standard
-- **Couche diffusante** : acrylique dépoli 2mm sur le PCB
+- **Couche diffusante** : à imprimer en 3d
 
 ---
 
-## 🧲 Aimants dans les pièces
+## Aimants dans les pièces
 - **N52 cylindrique Ø6×3mm** dans la base des pièces
-- Polarité alternée blanc/noir → SS49E peut distinguer les 2 couleurs !
 - Colle epoxy dans un logement imprimé 3D
 
 ---
@@ -114,6 +112,8 @@ Total hauteur estimée : **~25-30mm**
 
 
 ```
+Gestion de l'allumage — MOSFET P-Channel AO3401
+
 VBAT
  │
  R1 10kΩ
@@ -134,3 +134,26 @@ VBAT
                           GPIO_PWR_HOLD  GPIO_BTN_PWR
                           (maintien ON)  (lecture bouton)
 ```
+
+## Répartition des composants par pcb
+
+```
+MAIN BOARD :                    POWER BOARD :
+├── ESP32-C6                    ├── TP4056
+├── USB-C connector             ├── DW01A + FS8205A
+├── 64× WS2812B                 ├── 18650 connector
+├── 64× A3144                   ├── MT3608 (5V)
+├── 8× 74HC4051                 ├── AMS1117 (3.3V)
+├── 1× 74HC138                  ├── MOSFET power switch
+├── BTN_BOOT + BTN_RESET        ├── BTN_PWR + LED power
+└── JST vers power board        └── JST vers main board
+```
+
+Connecteurs entre les cartes :
+- **JST 4-pin** pour l'alimentation:
+  - Pin 1 : VBAT (18650+)
+  - Pin 2 : GND
+  - Pin 3 : 5V (MT3608 output vers main board)
+  - Pin 4 : 3.3V (AMS1117 output vers main board)
+
+
