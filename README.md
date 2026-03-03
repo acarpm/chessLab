@@ -94,3 +94,43 @@ Total hauteur estimée : **~25-30mm**
 | **P4** | Firmware chess engine + app |
 | **P5** | Impression 3D boîtier final + pièces modifiées |
 
+## Fonctionnement Allumage pas à pas
+*Allumage :*
+1. Appui BTN_PWR
+2. Gate du MOSFET passe à GND → MOSFET conduit
+3. VSYS s'allume → ESP32 démarre
+4. ESP32 maintient le GPIO à LOW → garde le MOSFET ouvert
+5. relâches bouton → le système reste allumé
+
+*Extinction logicielle (soft power off) :*
+1. ESP32 détecte inactivité (ex: 10 min sans coup joué)
+2. Sauvegarde état si besoin
+3. GPIO passe à HIGH → MOSFET se bloque → tout s'éteint
+
+*Extinction manuelle :*
+1. Appui long BTN_PWR (ex: 3 secondes)
+2. ESP32 détecte le GPIO d'entrée du bouton
+3. Même séquence que soft power off
+
+
+'''
+VBAT
+ │
+ R1 10kΩ
+ │
+ ├─────────────────────────► Gate AO3401 (P-MOS)
+ │                                │
+ │         ┌──── R2 100kΩ ────────┘
+ │         │
+ │      Source AO3401
+ │         │ = VBAT
+ │         │
+ │        Drain ──────────────────► VSYS
+ │                                   │
+ BTN_PWR                        (MT3608 + AMS1117)
+ │                                   │
+ └──── vers Gate              ESP32-C6
+                                │         │
+                          GPIO_PWR_HOLD  GPIO_BTN_PWR
+                          (maintien ON)  (lecture bouton)
+'''
