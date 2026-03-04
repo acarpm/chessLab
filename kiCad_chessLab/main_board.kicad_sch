@@ -3411,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 163.83) (xy 53.34 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25a74da-1c3e-4642-8fe4-0937df1ba23e")
+	)
+	(wire
+		(pts
 			(xy 74.93 190.5) (xy 74.93 227.33)
 		)
 		(stroke
@@ -3668,6 +3678,72 @@
 			(type default)
 		)
 		(uuid "fe8fb732-f444-41a6-940e-46acc905a267")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 53.34 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27710f66-3bc6-4be5-b70f-40cda5cd5aa6")
+		(property "Reference" "#PWR06"
+			(at 53.34 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "516193f2-f9fd-4340-a97d-2b64809473ba")
+		)
+		(instances
+			(project "kiCad_chessLab"
+				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1/879e1270-2f10-48e2-adb9-8c8e9c331030"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
