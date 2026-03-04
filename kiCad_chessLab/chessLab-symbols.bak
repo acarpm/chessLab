@@ -1395,7 +1395,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:ESP32C6WROOM1N8"
+		(property "Footprint" "ESP32C6WROOM1N8"
 			(at 29.21 -94.92 0)
 			(effects
 				(font

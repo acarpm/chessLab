@@ -447,8 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "chessLab-footprints"
+    ],
+    "pinned_symbol_libs": [
+      "chessLab-symbols"
+    ]
   },
   "meta": {
     "filename": "kiCad_chessLab.kicad_pro",

@@ -4,5 +4,12 @@
 	(generator_version "9.0")
 	(uuid "97b242d8-114f-4784-b28e-beb7f8aef6b8")
 	(paper "A4")
+	(title_block
+		(title "Main Board")
+		(date "2026-03-04")
+		(rev "v1")
+		(company "CampusFab")
+		(comment 1 "By CARP Alexandru")
+	)
 	(lib_symbols)
 )

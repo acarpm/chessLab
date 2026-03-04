@@ -1,4 +1,4 @@
-27242953750085279
+27260680124156889
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107904,3 +107904,73 @@ Varistor VF
 0
 2
 2
+chessLab-footprints
+A3144EUA
+A3144EUA-3
+Integrated Circuit
+0
+3
+3
+chessLab-footprints
+CONN4_1048_KEY
+
+1048 
+0
+6
+6
+chessLab-footprints
+ESP32C6WROOM1N8
+ESP32-C6-WROOM-1-N8-4
+Integrated Circuit
+0
+37
+37
+chessLab-footprints
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+chessLab-footprints
+SOIC127P600X175-9N
+SOP8-PP
+Integrated Circuit
+0
+9
+9
+chessLab-footprints
+SOP65P640X120-8N
+FS8205A
+MOSFET (N-Channel)
+0
+8
+8
+chessLab-footprints
+SOT95P280X125-3N
+SOT23_2025
+MOSFET (P-Channel)
+0
+3
+3
+chessLab-footprints
+SOT95P280X135-6N
+DW01A-G
+Integrated Circuit
+0
+6
+6
+chessLab-footprints
+SOT95P280X145-6N
+TSOT23-6/SOT23-6
+Integrated Circuit
+0
+6
+6
+chessLab-footprints
+WS2812B
+
+
+0
+4
+4
