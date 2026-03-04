@@ -9,9 +9,92 @@
 		(date "2026-03-02")
 		(rev "v1")
 		(company "CampusFab")
-		(comment 1 "By Alexandru Carp")
+		(comment 1 "By CARP Alexandru")
 	)
 	(lib_symbols)
+	(sheet
+		(at 21.59 15.24)
+		(size 234.95 106.68)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "337a5d50-bd96-4e85-84af-32e04ba9fe78")
+		(property "Sheetname" "power_board"
+			(at 21.59 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_board.kicad_sch"
+			(at 21.59 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kiCad_chessLab"
+				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 129.54)
+		(size 232.41 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "879e1270-2f10-48e2-adb9-8c8e9c331030")
+		(property "Sheetname" "Main Board"
+			(at 22.86 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_board.kicad_sch"
+			(at 22.86 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kiCad_chessLab"
+				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
