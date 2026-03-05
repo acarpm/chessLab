@@ -156,4 +156,21 @@ Connecteurs entre les cartes :
   - Pin 3 : 5V (MT3608 output vers main board)
   - Pin 4 : 3.3V (AMS1117 output vers main board)
 
+## Pinout ESP32
+13 -> GPIO12 = D-
+14 -> GPIO13 = D+
+8  -> GPIO0  = S0 (mux sélection canal)
+9  -> GPIO1  = S1
+27  -> GPIO2  = S2
+26  -> GPIO3  = A0 (74HC138 sélection rangée)
+25 -> GPIO16  = A1
+24 -> GPIO17  = A2
+16 -> GPIO18  = SIG_ADC (lecture capteurs Hall)
+17 -> GPIO19  = DATA WS2812B (via 33Ω)
+18 -> GPIO20  = VBAT
+15 -> GPIO9  = BOOT button (déjà prévu)
+19 -> GPIO21 = BTN_PWR (lecture bouton power)
+20 -> GPIO22  = PWR_HOLD (maintien alimentation)
+
+
 
