@@ -172,5 +172,19 @@ Connecteurs entre les cartes :
 19 -> GPIO21 = BTN_PWR (lecture bouton power)
 20 -> GPIO22  = PWR_HOLD (maintien alimentation)
 
+Signal (données, GPIO)  : 0.25mm
+Alimentation 3.3V       : 0.5mm
+Alimentation 5V LEDs    : 1.0mm
+VBAT                    : 1.0mm
+VSYS                    : 1.0mm
+USB D+ / D-             : 0.2mm  
+
+Via standard :
+→ Drill    : 0.4mm
+→ Pad      : 0.8mm
+
+Via power :
+→ Drill    : 0.6mm
+→ Pad      : 1.2mm
 
 
