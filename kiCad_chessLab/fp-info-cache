@@ -1,4 +1,4 @@
-26747546548548747
+26751092167889373
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106358,6 +106358,13 @@ Switch
 2
 2
 chessLab-footprints
+CDRH4D28NP100NC
+CDRH4D28NP-100NC
+Ferrite Bead
+0
+2
+2
+chessLab-footprints
 CONN4_1048_KEY
 
 1048 
@@ -106420,3 +106427,10 @@ WS2812B
 0
 4
 4
+chessLab-footprints
+x218650smd
+1048
+Undefined or Miscellaneous
+0
+9
+9
