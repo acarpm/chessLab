@@ -7567,7 +7567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN4_1048_KEY"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 48.26 147.32 0)
 			(effects
 				(font
@@ -8769,7 +8769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN4_1048_KEY"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 48.26 172.72 0)
 			(effects
 				(font
@@ -8915,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TYPE-C-31-M-12:HRO_TYPE-C-31-M-12"
+		(property "Footprint" "chessLab-footprints:HRO_TYPE-C-31-M-12"
 			(at 118.11 171.45 0)
 			(effects
 				(font

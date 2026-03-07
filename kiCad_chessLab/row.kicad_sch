@@ -1982,7 +1982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "chessLab-footprints:74HC4051D653"
 			(at 92.71 60.96 0)
 			(effects
 				(font
