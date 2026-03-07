@@ -275,12 +275,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "chessLab-symbols:A3144EUA"
+		(symbol "chessLab-symbols:SS49E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 21.59 7.62 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -288,8 +288,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "A3144EUA"
-				(at 21.59 5.08 0)
+			(property "Value" "SS49E"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -297,18 +297,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "A3144EUA"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/90853/ALLEGRO/A3144EUA.html"
-				(at 21.59 -194.92 0)
+			(property "Footprint" "TO130P160X410X300-3P"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -317,7 +307,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION"
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
 				(at 0 0 0)
 				(effects
 					(font
@@ -326,8 +326,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "5.26"
-				(at 21.59 -394.92 0)
+			(property "Height" "1.6"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -336,8 +336,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Allegro Microsystems"
-				(at 21.59 -494.92 0)
+			(property "Mouser Part Number" "785-SS49E"
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -346,8 +346,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "A3144EUA"
-				(at 21.59 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,8 +356,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -694.92 0)
+			(property "Manufacturer_Name" "Honeywell"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -366,8 +366,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -794.92 0)
+			(property "Manufacturer_Part_Number" "SS49E"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -376,30 +376,10 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "A3144EUA_1_1"
+			(symbol "SS49E_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(end 15.24 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -411,7 +391,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "SUPPLY"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -429,7 +409,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "GROUND"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,7 +427,7 @@
 				(pin passive line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "OUTPUT"
+					(name "O"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1713,7 +1693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "chessLab-symbols:A3144EUA")
+		(lib_id "chessLab-symbols:SS49E")
 		(at 137.16 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1721,9 +1701,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "76f25916-83b0-4b42-a871-5393ef540424")
+		(uuid "243d79e1-d9ca-4bbe-be87-b5b345838727")
 		(property "Reference" "IC5"
-			(at 158.75 66.0399 0)
+			(at 153.67 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,8 +1711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "A3144EUA"
-			(at 158.75 68.5799 0)
+		(property "Value" "SS49E"
+			(at 153.67 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,8 +1720,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A3144EUA"
-			(at 158.75 159.69 0)
+		(property "Footprint" "TO130P160X410X300-3P"
+			(at 153.67 159.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,8 +1730,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://pdf1.alldatasheet.com/datasheet-pdf/download/90853/ALLEGRO/A3144EUA.html"
-			(at 158.75 259.69 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
+			(at 153.67 259.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION"
+		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
 			(at 137.16 64.77 0)
 			(effects
 				(font
@@ -1769,8 +1749,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5.26"
-			(at 158.75 459.69 0)
+		(property "Height" "1.6"
+			(at 153.67 459.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1779,8 +1759,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 158.75 559.69 0)
+		(property "Mouser Part Number" "785-SS49E"
+			(at 153.67 559.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,8 +1769,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "A3144EUA"
-			(at 158.75 659.69 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
+			(at 153.67 659.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,8 +1779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 158.75 759.69 0)
+		(property "Manufacturer_Name" "Honeywell"
+			(at 153.67 759.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1809,8 +1789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 158.75 859.69 0)
+		(property "Manufacturer_Part_Number" "SS49E"
+			(at 153.67 859.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,38 +1798,18 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Arrow Part Number" ""
-			(at 158.75 959.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 158.75 1059.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fd61facd-ad90-4592-b4c2-d903aa98fcec")
-		)
-		(pin "2"
-			(uuid "884c9284-ecc9-4638-8fac-66ee6d3d6195")
 		)
 		(pin "1"
-			(uuid "b8cb5704-154e-41d8-b88b-0897e58cc542")
+			(uuid "f9374ea0-b60c-4b21-8047-3c2318e53f42")
+		)
+		(pin "3"
+			(uuid "6daff20e-f18a-49d3-86d6-b06fc3de2f4d")
+		)
+		(pin "2"
+			(uuid "b270e224-aedd-4a76-a07e-946093da50b9")
 		)
 		(instances
-			(project "kiCad_chessLab"
+			(project ""
 				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1/879e1270-2f10-48e2-adb9-8c8e9c331030/018d4994-81df-4c87-9da8-f9e39ef9d83a/1d9f8004-cc8c-4cac-9fc2-6162274561e6"
 					(reference "IC24")
 					(unit 1)

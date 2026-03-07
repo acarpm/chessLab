@@ -3946,6 +3946,12 @@
 		(uuid "01649001-aafb-475a-909e-f4b8ddda05ab")
 	)
 	(junction
+		(at 156.21 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17324935-a5ab-444e-a71c-c63f71ce6683")
+	)
+	(junction
 		(at 83.82 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4138,12 +4144,6 @@
 		(uuid "f19ba27c-8a16-47bb-b7cc-0f1566fb8bd2")
 	)
 	(junction
-		(at 156.21 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f36d9005-eeb0-40e1-935d-ef3ec28aa34f")
-	)
-	(junction
 		(at 123.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4166,6 +4166,16 @@
 			(type default)
 		)
 		(uuid "03c2d217-c259-4244-84e8-d3a441920ebf")
+	)
+	(wire
+		(pts
+			(xy 166.37 175.26) (xy 167.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ff86af-bee9-43a7-8b68-1e9c24e7d3f0")
 	)
 	(wire
 		(pts
@@ -4216,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "0f2c7b4f-3a41-43ee-97e6-373fe3deb019")
+	)
+	(wire
+		(pts
+			(xy 167.64 175.26) (xy 167.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ef2132-e3c9-4167-95a1-5a1dfa51c0cb")
 	)
 	(wire
 		(pts
@@ -4306,16 +4326,6 @@
 			(type default)
 		)
 		(uuid "1c817487-5b2d-41c0-a516-c45aa2ca57f5")
-	)
-	(wire
-		(pts
-			(xy 156.21 175.26) (xy 158.75 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cd930b8-b93d-4120-bf45-0f56af9d3501")
 	)
 	(wire
 		(pts
@@ -5276,6 +5286,16 @@
 			(type default)
 		)
 		(uuid "da816ec0-39c9-4280-8cff-9696e6c7b078")
+	)
+	(wire
+		(pts
+			(xy 156.21 175.26) (xy 158.75 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da82ac90-e808-4854-a8cc-2803bd2ec053")
 	)
 	(wire
 		(pts
@@ -7320,6 +7340,74 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 162.56 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ebb157c-3671-42d6-b0ce-cdb06fdd093b")
+		(property "Reference" "R82"
+			(at 162.56 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 162.56 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 162.56 177.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0dff14e-efa5-41f5-a95c-82347711a417")
+		)
+		(pin "1"
+			(uuid "6c1f835e-7b6c-4238-85b5-174faba3d661")
+		)
+		(instances
+			(project ""
+				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1/337a5d50-bd96-4e85-84af-32e04ba9fe78"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 36.83 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7663,7 +7751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 175.26 90)
+		(at 167.64 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7672,7 +7760,7 @@
 		(fields_autoplaced yes)
 		(uuid "6de9203a-9fdd-4a32-b477-4cb977f6ff12")
 		(property "Reference" "#PWR012"
-			(at 165.1 175.26 0)
+			(at 167.64 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,16 +7769,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 175.2599 90)
+			(at 167.64 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 175.26 0)
+			(at 167.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 175.26 0)
+			(at 167.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 175.26 0)
+			(at 167.64 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

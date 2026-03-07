@@ -162,10 +162,10 @@ Connecteurs entre les cartes :
 8  -> GPIO0  = S0 (mux sélection canal)
 9  -> GPIO1  = S1
 27  -> GPIO2  = S2
-26  -> GPIO3  = A0 (74HC138 sélection rangée)
+16  -> GPIO18  = A0 (74HC138 sélection rangée)
 25 -> GPIO16  = A1
 24 -> GPIO17  = A2
-16 -> GPIO18  = SIG_ADC (lecture capteurs Hall)
+26 -> GPIO3  = A_OUT(lecture capteurs Hall)
 17 -> GPIO19  = DATA WS2812B (via 33Ω)
 18 -> GPIO20  = VBAT
 15 -> GPIO9  = BOOT button (déjà prévu)
