@@ -467,7 +467,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0062b266-37c3-4d26-864a-0dd9b45c1c3c")
-		(at -22.7425 -71.47)
+		(at 80.625 164.7515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R28"
@@ -608,7 +608,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "0063fc8f-c59e-4ca9-b9e4-77aba3795749")
-		(at -246.2 5.65)
+		(at 165.1475 138.0215)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC43"
@@ -1404,7 +1404,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "01af054a-b548-4d9f-ae19-a9d42da59810")
-		(at -253.85 -25.25)
+		(at 103.7 227.9)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC21"
@@ -1703,7 +1703,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "03c7b159-a6c3-4d96-835e-1718ed3ac2ae")
-		(at -220.7725 66.48)
+		(at 170.775 220.3415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C48"
@@ -1985,7 +1985,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "068f67b4-7339-4788-bab1-b655c5f8f429")
-		(at -226.6475 68.9885)
+		(at 164.9 222.85)
 		(property "Reference" "LED33"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -2307,7 +2307,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "06a8f277-b24e-41dd-b76d-2a15f87db2e3")
-		(at -238.55 0.5)
+		(at 165.05 258.24)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC42"
@@ -2606,7 +2606,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "06ef5159-2d00-49c3-8375-3bfe224ba4bc")
-		(at -261.5 10.8)
+		(at 134.1 139.79)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC35"
@@ -3617,7 +3617,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0ad52907-3eef-4aac-8898-0c4f9cd7695a")
-		(at -207.0225 68.99)
+		(at 171.175 161.5515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R52"
@@ -4360,7 +4360,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "0bc9af95-7df7-45ba-b030-2156b6fbd4f5")
-		(at -199.1475 68.9885)
+		(at 103.7 132.95)
 		(property "Reference" "LED23"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -5122,7 +5122,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "0e67b70a-2133-49aa-94c7-0d1d355a67b1")
-		(at -261.5 -25.25)
+		(at 102.4 69.9)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC25"
@@ -5526,7 +5526,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0f1e9caa-67b6-4dc3-8fb7-91ea0c67cc94")
-		(at -22.7425 -58.03)
+		(at 79.075 44.0515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R33"
@@ -6389,7 +6389,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "1178387b-7505-4d02-b2ff-471dcac64609")
-		(at -50.7375 83.8885)
+		(at 103.35 75.65)
 		(property "Reference" "LED21"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -9777,7 +9777,7 @@
 	(footprint "chessLab-footprints:74HC4051D653"
 		(layer "F.Cu")
 		(uuid "165e7069-0272-4a30-b826-7ce14971c239")
-		(at -117.9375 3.165)
+		(at 107.5 283.4)
 		(descr "74HC4051D,653-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U6"
@@ -10145,7 +10145,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "17554aa1-54b7-4ca6-94c3-8717e8518a94")
-		(at -78.2375 83.8885)
+		(at 129.65 246.85)
 		(property "Reference" "LED30"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -10931,7 +10931,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "19478a1e-7adc-4535-880b-d82a54895aa7")
-		(at -207.0225 53.04)
+		(at 170.875 189.3415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C49"
@@ -11072,7 +11072,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "19a753d4-4a3c-4e6e-9cf2-9d460c8d3626")
-		(at -246.2 -25.25)
+		(at 103.5 138.3)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC27"
@@ -11512,7 +11512,7 @@
 	(footprint "chessLab-footprints:74HC4051D653"
 		(layer "F.Cu")
 		(uuid "1b4e54e4-8882-4f1a-b32e-0d24758d8c91")
-		(at -117.9375 33.185)
+		(at 135.875 286.225)
 		(descr "74HC4051D,653-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U7"
@@ -13223,7 +13223,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "1ee6660d-5518-4d0b-a6ca-cc001d878d66")
-		(at -246.2 15.95)
+		(at 165.1 167.69)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC39"
@@ -13522,7 +13522,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "20b6ecc7-db0a-4865-b2c3-84f0e3639504")
-		(at -22.7425 -44.59)
+		(at 82.525 258.2515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R31"
@@ -14160,7 +14160,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "21ea7030-31b1-4ca3-aca1-8efd873296e2")
-		(at -107.2625 9.67)
+		(at 164.475 296.005)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C47"
@@ -15359,7 +15359,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "25b1a9dc-d79e-44b2-95e8-57b3afdbc3ec")
-		(at -78.2375 30.1285)
+		(at 132.55 104.35)
 		(property "Reference" "LED28"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -16710,7 +16710,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "2b4f1d4a-3466-455a-9d12-7636a9bc883c")
-		(at -246.2 -4.65)
+		(at 74.2175 49.5315)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC20"
@@ -17255,7 +17255,7 @@
 	(footprint "chessLab-footprints:74HC4051D653"
 		(layer "F.Cu")
 		(uuid "2cd62f9b-270b-4a77-8f02-da38067be1d3")
-		(at -102.9375 3.165)
+		(at 168.8 289.5)
 		(descr "74HC4051D,653-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U8"
@@ -17922,7 +17922,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "2d8282ab-0166-4afc-9fc1-e8cefc967e59")
-		(at -246.2 -14.95)
+		(at 129.25 252.05)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC34"
@@ -18221,7 +18221,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "2e1eb593-f50c-434e-bcd4-6976dab498fa")
-		(at -69.8625 1.68)
+		(at 110.275 192.4015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R35"
@@ -19591,7 +19591,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "32e20d3b-226e-4c9c-b019-e22e4d56ac96")
-		(at -50.7375 30.1285)
+		(at 132.95 221.45)
 		(property "Reference" "LED25"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -20515,7 +20515,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3425c44a-b598-4804-9d78-b55dbc738d7b")
-		(at -31.1125 27.62)
+		(at 141.275 131.5915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C45"
@@ -21439,7 +21439,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "393238de-ea11-4f18-a2b1-097657b1bda4")
-		(at -31.1125 81.38)
+		(at 80.6625 69.8)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
@@ -21580,7 +21580,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "39c3875b-234f-4b32-a989-bc1fc1aa5af1")
-		(at -28.6175 -98.3515)
+		(at 74.85 132.75)
 		(property "Reference" "LED15"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -22201,7 +22201,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3ab2d3a3-bf30-4ce9-b510-94805c4240a4")
-		(at -72.3625 27.62)
+		(at 138.425 101.8415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C42"
@@ -22483,7 +22483,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3c71cda2-7b46-42d7-bb11-a397efe0690b")
-		(at -22.7425 -73.98)
+		(at 80.625 162.2415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C23"
@@ -22624,7 +22624,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "3c74c0f8-4d54-498b-ac88-c8c88c5b8921")
-		(at -261.5 21.1)
+		(at 133.3 169)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC31"
@@ -26707,7 +26707,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "47d13f5e-b4ed-4e29-8659-1fd1f2579b3b")
-		(at -28.6125 1.68)
+		(at 109.175 247.1515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R39"
@@ -26848,7 +26848,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4a8f4db1-6422-4b8e-a9ec-c465f674c578")
-		(at -22.7425 -31.15)
+		(at 109.875 222.8515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R34"
@@ -27450,7 +27450,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "4bb06547-9b1c-4de1-9bbe-2fb9d0eb34fc")
-		(at -269.15 -25.25)
+		(at 104 109.5)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC24"
@@ -28105,7 +28105,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4d1886d2-d45a-48fd-a7df-dfd875eb7a52")
-		(at -193.2725 55.55)
+		(at 171.475 253.4015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R55"
@@ -30605,7 +30605,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "5795e173-d89a-4bbc-adcb-96c8baf94671")
-		(at -212.8975 55.5485)
+		(at 165 191.85)
 		(property "Reference" "LED34"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -30927,7 +30927,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "588a3f20-a2fd-46bd-a42c-03cb23652974")
-		(at -22.7425 -84.91)
+		(at 81.125 193.6515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R27"
@@ -31314,7 +31314,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "5ae50a89-9793-469c-9cb5-f82b585be13d")
-		(at -75.7375 1.6785)
+		(at 104.4 192.4)
 		(property "Reference" "LED18"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -32465,7 +32465,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "5cc4c67b-4a75-4533-9dad-4c20f52844bb")
-		(at -212.8975 68.9885)
+		(at 165.3 161.55)
 		(property "Reference" "LED35"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -32787,7 +32787,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5d58d6ef-67f4-4449-80d7-5a99452f61cc")
-		(at -22.7425 -87.42)
+		(at 81.125 191.1415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
@@ -33069,7 +33069,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5e6a1c89-cbf1-4164-803b-fa423dda33bf")
-		(at -28.6125 -0.83)
+		(at 109.175 244.6415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C35"
@@ -33774,7 +33774,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "602a2121-12a8-4ffe-b95f-cc463505f47c")
-		(at -253.85 -14.95)
+		(at 132.4 49)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC36"
@@ -34073,7 +34073,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "603cd556-614f-4156-9e0b-4e803a70bd79")
-		(at -28.6175 -111.7915)
+		(at 76.35 220.55)
 		(property "Reference" "LED9"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -34677,7 +34677,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "61dd4171-f6df-40d3-a9ec-500b032f80eb")
-		(at -69.8625 -0.83)
+		(at 110.275 189.8915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C31"
@@ -34818,7 +34818,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "623a9dbf-ea33-47e0-b799-04f5f3be6f98")
-		(at -193.2725 68.99)
+		(at 109.575 132.9515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R40"
@@ -34959,7 +34959,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "63cbc1f0-2072-45b6-b641-9f3207798b26")
-		(at -220.7725 79.92)
+		(at 171.575 130.6915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C54"
@@ -35100,7 +35100,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "63e44364-3353-4f76-bca4-61a7803678de")
-		(at -42.3625 -0.83)
+		(at 107.875 40.8915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C37"
@@ -35241,7 +35241,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "64b3fb63-8adf-4533-9424-da062b574308")
-		(at -253.85 -4.65)
+		(at 76 109.24)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC16"
@@ -38795,7 +38795,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "69de10a6-aded-4b4d-800e-cf987af449ff")
-		(at -72.3625 57.01)
+		(at 139.575 163.3015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R44"
@@ -38936,7 +38936,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "69e4fe1c-49b4-4fcb-a909-931e41a3f8f8")
-		(at -72.3625 54.5)
+		(at 139.575 160.7915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C41"
@@ -39698,7 +39698,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "6aecb9bc-cb08-498e-a0bb-a4824d7e6110")
-		(at -28.6175 -31.1515)
+		(at 104 222.85)
 		(property "Reference" "LED17"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -40675,7 +40675,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "6d699197-a9f6-474b-a743-5a2a777db01d")
-		(at -253.85 10.8)
+		(at 73.8 138.1)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC19"
@@ -41330,7 +41330,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "6dee79d8-52cf-475b-bbe8-04cea9511ab7")
-		(at -253.85 5.65)
+		(at 75.8 226.5)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC13"
@@ -41629,7 +41629,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "6e52bd7d-5c24-4746-a84b-a83e0f6dc689")
-		(at -223.25 -25.25)
+		(at 101.8 48.95)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC28"
@@ -41928,7 +41928,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6f0adf96-adde-424f-bd93-08e859b126c0")
-		(at -58.6125 41.06)
+		(at 110.675 101.4915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C33"
@@ -42425,7 +42425,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6f77616e-71ce-4c6e-a586-b4a841c6c02f")
-		(at -72.3625 83.89)
+		(at 135.525 246.8515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R47"
@@ -42566,7 +42566,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "702901c9-27e3-4e0b-be67-fb5ed399ac86")
-		(at -34.4875 1.6785)
+		(at 103.3 247.15)
 		(property "Reference" "LED22"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -44322,7 +44322,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "73fa6056-7225-4492-8006-bf354e158575")
-		(at -48.2375 1.6785)
+		(at 102 43.4)
 		(property "Reference" "LED24"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -44644,7 +44644,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "746b9fba-0cea-4090-81cb-bb4469e23f28")
-		(at -78.2375 57.0085)
+		(at 133.7 163.3)
 		(property "Reference" "LED27"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -45728,7 +45728,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "77c940a2-01c3-4151-b8ec-37e5185568de")
-		(at -56.1125 -0.83)
+		(at 110.175 161.6915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
@@ -46700,7 +46700,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "7ad9a30d-ce2f-4b96-a9d1-36bf5018453c")
-		(at -230.9 -25.25)
+		(at 104.3 169.74)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC23"
@@ -47603,7 +47603,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "7f926d5a-8f58-415a-bf51-6e047ba39fbf")
-		(at -31.1125 30.13)
+		(at 141.275 134.1015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R48"
@@ -49114,7 +49114,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "83ef0497-b519-4cd2-ae31-54a0d04a34a7")
-		(at -269.15 -20.1)
+		(at 102.7 252.65)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC26"
@@ -49413,7 +49413,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8551c846-506b-4526-a2a7-bcb83b1cbe59")
-		(at -72.3625 43.57)
+		(at 139.525 191.3515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R43"
@@ -49554,7 +49554,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "85cc7edd-b67d-4eac-8a9e-6cbfda6f1a56")
-		(at -22.7425 -111.79)
+		(at 82.225 220.5515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R26"
@@ -49695,7 +49695,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "86f58760-1205-4f5b-9e05-2c1a1520a7e7")
-		(at -261.5 0.5)
+		(at 133.8375 81.5215)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC33"
@@ -49994,7 +49994,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8730f454-11cb-48da-80b5-32dec68fe8ac")
-		(at -56.1125 1.68)
+		(at 110.175 164.2015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R36"
@@ -50135,7 +50135,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "873e9f2b-ccee-4250-bfe8-4dfe40aab89b")
-		(at -238.55 -25.25)
+		(at 104.1 197.44)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC22"
@@ -50434,7 +50434,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8860d11c-664e-4445-9056-c60d249b4f10")
-		(at -31.1125 67.94)
+		(at 79.875 101.7915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C24"
@@ -51230,7 +51230,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "8b3ef61c-382d-432a-a83c-6e43bc16f0c2")
-		(at -64.4875 43.5685)
+		(at 104.8 104)
 		(property "Reference" "LED20"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -51851,7 +51851,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8beee1be-2a13-4a15-8581-7994c2c479ca")
-		(at -22.7425 -100.86)
+		(at 80.725 130.2415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C27"
@@ -52133,7 +52133,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8e71f718-0b40-4214-bb77-30b87c629782")
-		(at -72.3625 30.13)
+		(at 138.425 104.3515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R45"
@@ -53880,7 +53880,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9399c934-88af-45ad-87fe-35f4e27fdd08")
-		(at -22.7425 -114.3)
+		(at 82.225 218.0415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
@@ -55168,7 +55168,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "99c74917-82ac-44ce-ae1e-60a6c3097fde")
-		(at -193.2725 53.04)
+		(at 171.475 250.8915)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C53"
@@ -56030,7 +56030,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9ce8a361-f0cb-42c9-8685-07c172aed118")
-		(at -58.6125 30.13)
+		(at 140.225 75.4515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R46"
@@ -56463,7 +56463,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "9dae1072-b27a-483b-990a-313ca60f7114")
-		(at -36.9875 83.8885)
+		(at 74.7875 72.3085)
 		(property "Reference" "LED13"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -57107,7 +57107,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9e32fb9f-eb55-4610-9d86-e3b2eec0ace8")
-		(at -72.3625 70.45)
+		(at 139.625 43.1515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R49"
@@ -57711,7 +57711,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "a0078e6f-d67e-4aac-aefc-152f1ca47d63")
-		(at -28.6175 -84.9115)
+		(at 75.25 193.65)
 		(property "Reference" "LED10"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -58033,7 +58033,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "a04855d9-1f9a-4401-bf23-0149127b471b")
-		(at -246.2 10.8)
+		(at 163.9 196.55)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC38"
@@ -58332,7 +58332,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "a068ad73-6322-4282-880f-39022356686a")
-		(at -261.5 15.95)
+		(at 132.4 197.2)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC30"
@@ -58631,7 +58631,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "a14dc084-781d-4627-8073-ef2a2240efcf")
-		(at -199.1475 55.5485)
+		(at 165.6 253.4)
 		(property "Reference" "LED38"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -59450,7 +59450,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a4b04f2b-a478-4025-bdf0-ec410e266d6e")
-		(at -42.3625 1.68)
+		(at 107.875 43.4015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R41"
@@ -59591,7 +59591,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "a5fb23c5-a617-4b13-9ba0-d3e24dd714a9")
-		(at -261.5 -4.65)
+		(at 130.8 110.6)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC32"
@@ -60212,7 +60212,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "a672c376-8ea6-4701-98ad-79e27ca2a631")
-		(at -78.2375 70.4485)
+		(at 133.75 43.15)
 		(property "Reference" "LED32"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -62371,151 +62371,10 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-		(layer "F.Cu")
-		(uuid "aaa67b80-29a0-4b25-b9f5-b45c6dd012ff")
-		(at 166.1 244.1)
-		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor handsolder")
-		(property "Reference" "R11"
-			(at 0 -1.43 0)
-			(layer "F.SilkS")
-			(uuid "de6bd029-4cd7-449a-a45e-2c14e6725650")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "33"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "5b2ebdbb-d04a-42fc-bf55-405adf87872d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0dbd265c-b9b9-46b5-9057-97f78b8df086")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8444b405-1add-4bee-8ede-7d5d194ebeaa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/879e1270-2f10-48e2-adb9-8c8e9c331030/7f15e126-d239-43a4-8ac5-6413d5af92f1")
-		(sheetname "/Main Board/")
-		(sheetfile "main_board.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.254724 -0.5225)
-			(end 0.254724 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "508611b9-8ae8-418f-b3a6-d25825eed122")
-		)
-		(fp_line
-			(start -0.254724 0.5225)
-			(end 0.254724 0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "deda1cc5-712d-4a75-9e37-da172f0e2261")
-		)
-		(fp_rect
-			(start -1.65 -0.73)
-			(end 1.65 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1f1adb29-8bf9-4553-b8f7-e7a4501e3afa")
-		)
-		(fp_rect
-			(start -0.8 -0.4125)
-			(end 0.8 0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "68ae41aa-6987-4045-b81c-dddd98869c16")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "150bb535-861b-4067-bf3e-24e1f8adcea9")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.9125 0)
-			(size 0.975 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 44 "/Main Board/DIN")
-			(pintype "passive")
-			(uuid "c4d1d6ec-c0fc-46f3-be96-2ddbc1293727")
-		)
-		(pad "2" smd roundrect
-			(at 0.9125 0)
-			(size 0.975 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 119 "/Main Board/Row_A/DIN")
-			(pintype "passive")
-			(uuid "eba29a29-efa0-4656-99ba-10284ad45607")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "aadbd810-fe09-427e-be28-b7b6104f4299")
-		(at -207.0225 66.48)
+		(at 171.175 159.0415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C50"
@@ -63519,7 +63378,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "afce528d-2580-4e82-b296-f1c89d0ad84d")
-		(at -72.3625 81.38)
+		(at 135.525 244.3415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C44"
@@ -63660,7 +63519,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "b0788891-dba8-4fb5-a6b3-e83a9c1cd0e7")
-		(at -261.5 5.65)
+		(at 132.6 227.6)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC29"
@@ -64315,7 +64174,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "b1e640ea-e5e0-439d-9a58-422f4ddf0179")
-		(at -36.9875 70.4485)
+		(at 74 104.3)
 		(property "Reference" "LED12"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -65292,7 +65151,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b32fa0f2-6dd6-4ff7-96a8-e5a584bffbd0")
-		(at -44.8625 83.89)
+		(at 109.225 75.6515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R38"
@@ -65574,7 +65433,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b3c57636-4173-4170-afb2-59af7167bb59")
-		(at -22.7425 -98.35)
+		(at 80.725 132.7515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R32"
@@ -66155,7 +66014,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "b5fa77ae-5ed6-4974-a0c9-51755f0685a9")
-		(at -253.85 15.95)
+		(at 73.9 199.4)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC14"
@@ -66776,7 +66635,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "b650fffe-607d-48c7-91cd-a2e5f7107bac")
-		(at -246.2 0.5)
+		(at 165 227.34)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC37"
@@ -67679,7 +67538,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b8b77431-520d-4612-a3dd-d391dc3dc841")
-		(at -220.7725 82.43)
+		(at 171.575 133.2015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R56"
@@ -67820,7 +67679,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b8c93b63-a2c2-4ef9-80e3-0bebf6855e46")
-		(at -44.8625 27.62)
+		(at 138.825 218.9415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C39"
@@ -68102,7 +67961,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b9d0b1e9-e25c-4a9c-a1f1-919a8104f13f")
-		(at -72.3625 67.94)
+		(at 139.625 40.6415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C46"
@@ -68599,7 +68458,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ba90e8d9-8004-4ce3-b769-3ee0c7b582dd")
-		(at -44.8625 81.38)
+		(at 109.225 73.1415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C34"
@@ -69771,7 +69630,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "bccd44b7-b9f0-4eeb-ab5a-eb58da3e3ceb")
-		(at -253.85 0.5)
+		(at 74.5375 81.5585)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC17"
@@ -70923,7 +70782,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "c02d9db4-8336-4e23-ac04-331e3ab5f9a5")
-		(at -28.6175 -44.5915)
+		(at 76.65 258.25)
 		(property "Reference" "LED14"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -71849,7 +71708,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "c2b73c04-7b24-4eab-825a-5c935bb8b42e")
-		(at -61.9875 1.6785)
+		(at 104.3 164.2)
 		(property "Reference" "LED19"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -73605,7 +73464,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c522648a-8067-47b7-9139-12955f4ce1c6")
-		(at -31.1125 83.89)
+		(at 80.6625 72.31)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R30"
@@ -74525,7 +74384,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c934f310-a9d1-4b2b-9041-2c7bcd12cbcd")
-		(at -58.6125 27.62)
+		(at 140.225 72.9415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C43"
@@ -75034,7 +74893,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ca29452d-2deb-4879-a71b-5ddfcba3968e")
-		(at -122.2625 9.67)
+		(at 99.4 281.2)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C29"
@@ -75131,7 +74990,7 @@
 			(uuid "58f5b9f6-4b34-48d9-8782-a33197729499")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0.2 0)
 			(layer "F.Fab")
 			(uuid "1b512da2-1ea6-4141-ac9c-afe51ff5f75c")
 			(effects
@@ -77361,7 +77220,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cf373778-1bdc-4102-9193-505d9d9d99b0")
-		(at -220.7725 68.99)
+		(at 170.775 222.8515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R50"
@@ -77502,7 +77361,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "d13d73a5-12eb-4f2f-b835-6559fd510911")
-		(at -238.55 -4.65)
+		(at 66.9 256.3)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC18"
@@ -78298,7 +78157,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d2a5e9ef-6d92-4122-88f4-704c400b6ddf")
-		(at -193.2725 66.48)
+		(at 109.575 130.4415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C36"
@@ -79258,7 +79117,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d5c9506a-bf41-41c1-94d5-4a4a5907be36")
-		(at -29.73 240.63)
+		(at 46 277.2)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
@@ -81555,7 +81414,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dbe5763e-e9fa-419c-96e7-5261569c8bb9")
-		(at -72.3625 41.06)
+		(at 139.525 188.8415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C40"
@@ -81696,7 +81555,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dbfc0cad-c5e3-40f7-86da-500515fa2f15")
-		(at -22.7425 -47.1)
+		(at 82.525 255.7415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
@@ -82704,7 +82563,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "dd837d97-16cf-47f9-a338-bef4caf9a270")
-		(at -78.2375 43.5685)
+		(at 133.65 191.35)
 		(property "Reference" "LED26"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -83026,7 +82885,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dec0ac32-06d6-43aa-a4ea-4c69693e82f7")
-		(at -122.2625 39.69)
+		(at 131.55 292.73)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C38"
@@ -83762,7 +83621,7 @@
 	(footprint "chessLab-footprints:TO130P160X410X300-3P"
 		(layer "F.Cu")
 		(uuid "df85b965-311e-4453-a8a3-1e9cc55722b3")
-		(at -253.85 21.1)
+		(at 75.7 171.1)
 		(descr "SS49E")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC15"
@@ -85752,7 +85611,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e43c83cb-0be6-4b4a-880b-bbfaefd450e9")
-		(at -22.7425 -60.54)
+		(at 79.075 41.5415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C28"
@@ -86034,7 +85893,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "e54020ea-b776-404b-9a8e-8537bedae93f")
-		(at -36.9875 30.1285)
+		(at 135.4 134.1)
 		(property "Reference" "LED31"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -86356,7 +86215,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "e71dc8c5-8d02-4c7b-a65e-aeff2bc3167d")
-		(at -226.6475 82.4285)
+		(at 165.7 133.2)
 		(property "Reference" "LED39"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -86678,7 +86537,7 @@
 	(footprint "chessLab-footprints:74HC4051D653"
 		(layer "F.Cu")
 		(uuid "e73ac195-cc8a-4863-b8f0-5328a6d6309e")
-		(at 81.095 247.075)
+		(at 83.705 278.525)
 		(descr "74HC4051D,653-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "U5"
@@ -87046,7 +86905,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e949b697-cbea-40e3-ab36-09d2b01dc48a")
-		(at -207.0225 55.55)
+		(at 170.875 191.8515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R51"
@@ -88198,7 +88057,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "eb0d8321-8234-4e86-9457-318f0c4fb828")
-		(at -28.6175 -71.4715)
+		(at 74.75 164.75)
 		(property "Reference" "LED11"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -88661,7 +88520,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ec7bc35a-a601-4136-a32b-e7f811f4789e")
-		(at -22.7425 -33.66)
+		(at 109.875 220.3415)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C30"
@@ -89739,7 +89598,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "efac4285-068f-48b1-b092-68743a8d459d")
-		(at -44.8625 30.13)
+		(at 138.825 221.4515)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R42"
@@ -89880,7 +89739,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "efb2f89c-c16f-40ad-821c-2e3d96294bc1")
-		(at -28.6175 -58.0315)
+		(at 73.2 44.05)
 		(property "Reference" "LED16"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -91387,7 +91246,7 @@
 	(footprint "chessLab-footprints:WS2812B"
 		(layer "F.Cu")
 		(uuid "f1f9b35e-e3a4-41c2-a8e3-c0cca6bb19b2")
-		(at -64.4875 30.1285)
+		(at 134.35 75.45)
 		(property "Reference" "LED29"
 			(at 3.8989 0.4445 180)
 			(layer "F.SilkS")
@@ -91991,7 +91850,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f5dc6dc3-2f0a-4904-8e5b-ea46af8127f2")
-		(at -58.6125 43.57)
+		(at 110.675 104.0015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R37"
@@ -92488,7 +92347,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f65108d2-9c3f-4aef-855c-8945f9b9b41d")
-		(at -31.1125 70.45)
+		(at 79.875 104.3015)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R29"
@@ -93905,7 +93764,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fc51dbca-ee82-433e-953a-5f943b9e89c1")
-		(at -122.2625 84.72)
+		(at 74 276.5)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
@@ -97096,6 +96955,153 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(layer "B.Cu")
+		(uuid "aaa67b80-29a0-4b25-b9f5-b45c6dd012ff")
+		(at 163.7 245.1 90)
+		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor handsolder")
+		(property "Reference" "R11"
+			(at 3 0.1 90)
+			(layer "B.SilkS")
+			(uuid "de6bd029-4cd7-449a-a45e-2c14e6725650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "33"
+			(at 0 -1.43 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b2ebdbb-d04a-42fc-bf55-405adf87872d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0dbd265c-b9b9-46b5-9057-97f78b8df086")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8444b405-1add-4bee-8ede-7d5d194ebeaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/879e1270-2f10-48e2-adb9-8c8e9c331030/7f15e126-d239-43a4-8ac5-6413d5af92f1")
+		(sheetname "/Main Board/")
+		(sheetfile "main_board.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.254724 -0.5225)
+			(end 0.254724 -0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "deda1cc5-712d-4a75-9e37-da172f0e2261")
+		)
+		(fp_line
+			(start -0.254724 0.5225)
+			(end 0.254724 0.5225)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "508611b9-8ae8-418f-b3a6-d25825eed122")
+		)
+		(fp_rect
+			(start -1.65 0.73)
+			(end 1.65 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "1f1adb29-8bf9-4553-b8f7-e7a4501e3afa")
+		)
+		(fp_rect
+			(start -0.8 0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.Fab")
+			(uuid "68ae41aa-6987-4045-b81c-dddd98869c16")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(uuid "150bb535-861b-4067-bf3e-24e1f8adcea9")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.9125 0 90)
+			(size 0.975 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net 44 "/Main Board/DIN")
+			(pintype "passive")
+			(uuid "c4d1d6ec-c0fc-46f3-be96-2ddbc1293727")
+		)
+		(pad "2" smd roundrect
+			(at 0.9125 0 90)
+			(size 0.975 0.95)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.25)
+			(net 119 "/Main Board/Row_A/DIN")
+			(pintype "passive")
+			(uuid "eba29a29-efa0-4656-99ba-10284ad45607")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
