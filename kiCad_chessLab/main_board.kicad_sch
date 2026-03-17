@@ -6579,7 +6579,7 @@
 		)
 		(uuid "157221cf-ed4c-4e9c-a9bc-86438f38b12e")
 	)
-	(label "GPIO12"
+	(label "DN"
 		(at 275.59 72.39 180)
 		(effects
 			(font
@@ -6679,7 +6679,7 @@
 		)
 		(uuid "688b83a5-1b90-4656-8c75-5d902c973c83")
 	)
-	(label "GPIO12"
+	(label "DN"
 		(at 135.89 168.91 0)
 		(effects
 			(font
@@ -6699,7 +6699,7 @@
 		)
 		(uuid "6f5975be-8dc8-426a-b80b-7501ea76a960")
 	)
-	(label "GPIO12"
+	(label "DN"
 		(at 100.33 171.45 180)
 		(effects
 			(font
@@ -6769,7 +6769,7 @@
 		)
 		(uuid "9b0f8abf-a778-43c2-9227-a8698bbea359")
 	)
-	(label "GPIO13"
+	(label "DP"
 		(at 100.33 168.91 180)
 		(effects
 			(font
@@ -6819,7 +6819,7 @@
 		)
 		(uuid "aeef2a82-cc6b-46be-a6a7-b2ea9ac873e5")
 	)
-	(label "GPIO13"
+	(label "DP"
 		(at 275.59 74.93 180)
 		(effects
 			(font
@@ -6839,7 +6839,7 @@
 		)
 		(uuid "b9fd36b5-83f2-449f-a771-fb486bda7162")
 	)
-	(label "GPIO13"
+	(label "DP"
 		(at 135.89 171.45 0)
 		(effects
 			(font
