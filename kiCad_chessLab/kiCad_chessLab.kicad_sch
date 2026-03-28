@@ -13,47 +13,6 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 21.59 15.24)
-		(size 234.95 106.68)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "337a5d50-bd96-4e85-84af-32e04ba9fe78")
-		(property "Sheetname" "power_board"
-			(at 21.59 14.5284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power_board.kicad_sch"
-			(at 21.59 123.698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "kiCad_chessLab"
-				(path "/767acb05-88fd-4294-8dd3-73f8ac75b0d1"
-					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 22.86 129.54)
 		(size 232.41 29.21)
 		(exclude_from_sim no)

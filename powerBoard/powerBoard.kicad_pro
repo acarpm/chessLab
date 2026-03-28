@@ -48,16 +48,10 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -123,7 +117,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -136,7 +130,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -186,12 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.25,
-        0.5,
-        1.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -218,20 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
-        },
-        {
-          "diameter": 1.2,
-          "drill": 0.6
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -454,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -471,15 +447,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "chessLab-footprints"
-    ],
-    "pinned_symbol_libs": [
-      "chessLab-symbols"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "kiCad_chessLab.kicad_pro",
+    "filename": "powerBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -497,28 +469,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.3,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 1.2,
-        "via_drill": 0.6
-      },
-      {
-        "clearance": 0.2,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2
       }
     ],
     "meta": {
@@ -613,7 +567,7 @@
       "include_excluded_from_bom": true,
       "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Referencia"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -657,300 +611,8 @@
   },
   "sheets": [
     [
-      "767acb05-88fd-4294-8dd3-73f8ac75b0d1",
+      "ef9a6e1c-7dcb-475c-bb8f-502c132c52b8",
       "Root"
-    ],
-    [
-      "879e1270-2f10-48e2-adb9-8c8e9c331030",
-      "Main Board"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "6fe74388-356e-4c1f-9809-4ea3ae688db6",
-      "Row_A"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "c76aad1f-644f-4742-a24b-cced56a5d4ba",
-      "Row_B"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "018d4994-81df-4c87-9da8-f9e39ef9d83a",
-      "Row_C"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "8f0f9883-379c-48a0-97e8-5dcb9e7b1ee1",
-      "Row_D"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "e9ec80c7-4989-43c4-95ac-e74dd33e324f",
-      "Row_E"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "ebb25a42-7c79-4d72-8665-53705e26eda3",
-      "Row_F"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "296e5808-6ccf-4e34-bf2f-3d81c1c8d62b",
-      "Row_G"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
-    ],
-    [
-      "be543d1a-72e7-46a4-9de0-04e30e7feab4",
-      "Row_H"
-    ],
-    [
-      "33aa6f9d-fa89-4a53-bff1-ae4d2fbbc135",
-      "cell_B2"
-    ],
-    [
-      "7820edfa-3e50-409b-946d-8bd7601ce1ae",
-      "cell_B3"
-    ],
-    [
-      "8daad07b-38ba-40ea-ba83-f5d2e51605b0",
-      "cell_B4"
-    ],
-    [
-      "1d9f8004-cc8c-4cac-9fc2-6162274561e6",
-      "cell_B6"
-    ],
-    [
-      "20d3c2f0-98a4-4d4a-8ce7-7282fa7b1173",
-      "cell_B7"
-    ],
-    [
-      "eebb42b5-5fae-46ad-b1ef-93d955f36e1c",
-      "cell_B1"
-    ],
-    [
-      "63854909-681a-4a7e-a4e2-e3687503ad71",
-      "cell_B5"
-    ],
-    [
-      "eb951267-71cd-4c49-ba38-8760e870a38d",
-      "cell_B8"
     ]
   ],
   "text_variables": {}
