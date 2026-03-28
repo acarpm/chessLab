@@ -6175,7 +6175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:CONN4_1048_KEY"
+		(property "Footprint" "ChessLab:CONN4_1048_KEY"
 			(at 20.32 0.33 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:SOT95P280X135-6N"
+		(property "Footprint" "ChessLab:SOT95P280X135-6N"
 			(at 100.33 188.9 0)
 			(effects
 				(font
@@ -6927,7 +6927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:SOIC127P600X175-9N"
+		(property "Footprint" "ChessLab:SOIC127P600X175-9N"
 			(at 82.55 131.75 0)
 			(effects
 				(font
@@ -7464,6 +7464,73 @@
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a92c9d2-6700-4c09-8406-f7678f4d0266")
+		(property "Reference" "TP11"
+			(at 27.94 108.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 27.94 110.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 30.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2509aff1-c753-48eb-bd24-8247943808b7")
+		)
+		(instances
+			(project ""
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -8034,7 +8101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:SOP65P640X120-8N"
+		(property "Footprint" "ChessLab:SOP65P640X120-8N"
 			(at 102.87 214.3 0)
 			(effects
 				(font
@@ -8398,7 +8465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "ChessLab:SOT95P280X145-6N"
 			(at 64.77 263.83 0)
 			(effects
 				(font
@@ -8683,7 +8750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:CDRH4D28NP100NC"
+		(property "Footprint" "ChessLab:CDRH4D28NP100NC"
 			(at 148.26 142.24 0)
 			(effects
 				(font
@@ -8803,7 +8870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "chessLab-footprints:B3U-1000P"
+		(property "Footprint" "ChessLab:B3U-1000P"
 			(at 160.02 105.41 0)
 			(effects
 				(font
@@ -10020,6 +10087,73 @@
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd80f26a-5f1a-427f-9156-d6c51ef87cbb")
+		(property "Reference" "TP12"
+			(at 41.91 108.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 110.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f940dea-14b2-4d63-a1e0-a8ae13616364")
+		)
+		(instances
+			(project "powerBoard"
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
