@@ -5,228 +5,6 @@
 	(uuid "ef9a6e1c-7dcb-475c-bb8f-502c132c52b8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1048_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 12.7 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT"
-				(at 12.7 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "chessLab-footprints:CONN4_1048_KEY"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=920"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "KEYSTONE - 1048 - BATTERY HOLDER, 18650 LI-ION, 2CELL, SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "534-1048"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048?qs=%2F7TOpeL5Mz5jXkg8vI8Dyw%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Keystone Electronics"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "1048"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "1048_1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "-_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "+_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect non_logic
-					(at 10.16 7.62 270)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect non_logic
-					(at 13.97 7.62 270)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "-_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "+_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -925,6 +703,89 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3945,12 +3806,6 @@
 		(uuid "09fd0281-b45c-4616-a130-00cd108ed0eb")
 	)
 	(junction
-		(at 41.91 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c7c7c6d-28c5-4b80-9162-446d8d41d940")
-	)
-	(junction
 		(at 50.8 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4011,6 +3866,12 @@
 		(uuid "3c1f39ef-8d32-4864-9617-0f82c880b7ec")
 	)
 	(junction
+		(at 99.06 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e0ad4a1-123d-44fa-b942-ff8bc305be36")
+	)
+	(junction
 		(at 82.55 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4027,6 +3888,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5459ba62-c951-4f69-bb91-511e52cd123c")
+	)
+	(junction
+		(at 24.13 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590b50b3-34d6-46d6-9d72-257e5a33214d")
 	)
 	(junction
 		(at 45.72 25.4)
@@ -4057,12 +3924,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "926946fd-fb94-4355-b460-d075ccd00714")
-	)
-	(junction
-		(at 64.77 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4c1ccc0-63db-4d4a-a7a0-d0d74e07eae8")
 	)
 	(junction
 		(at 27.94 158.75)
@@ -4123,12 +3984,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de1d2911-a201-4dab-a402-ea7841b3f801")
-	)
-	(junction
-		(at 102.87 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1c31bb8-b2ff-46f8-91c3-240fbbad86a7")
 	)
 	(junction
 		(at 163.83 33.02)
@@ -4412,16 +4267,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 36.83) (xy 107.95 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d14e9b7-923a-4219-8c69-f3924cdfaefe")
-	)
-	(wire
-		(pts
 			(xy 76.2 124.46) (xy 57.15 124.46)
 		)
 		(stroke
@@ -4552,6 +4397,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 92.71) (xy 48.26 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a4b31b-3bac-4d2f-8e30-6728abf3c343")
+	)
+	(wire
+		(pts
 			(xy 73.66 119.38) (xy 76.2 119.38)
 		)
 		(stroke
@@ -4592,13 +4447,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 36.83) (xy 102.87 36.83)
+			(xy 16.51 92.71) (xy 24.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523a28c9-b9f8-4d87-b441-3878b8700e6c")
+	)
+	(wire
+		(pts
+			(xy 91.44 36.83) (xy 99.06 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "537575c2-519a-4920-b6de-51609d92c8eb")
+	)
+	(wire
+		(pts
+			(xy 99.06 36.83) (xy 107.95 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fa068c-f5d7-463a-ad0e-a668f3f35ad8")
 	)
 	(wire
 		(pts
@@ -4619,16 +4494,6 @@
 			(type default)
 		)
 		(uuid "5d73e559-6d88-42de-ad22-974d6ac55865")
-	)
-	(wire
-		(pts
-			(xy 64.77 81.28) (xy 80.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f873ce4-ed51-4b27-beab-2949359f095c")
 	)
 	(wire
 		(pts
@@ -4782,16 +4647,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 95.25) (xy 16.51 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76fe96bd-235d-449b-b473-d04cf56fa183")
-	)
-	(wire
-		(pts
 			(xy 86.36 36.83) (xy 91.44 36.83)
 		)
 		(stroke
@@ -4852,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 81.28) (xy 64.77 81.28)
+			(xy 16.51 81.28) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4969,16 +4824,6 @@
 			(type default)
 		)
 		(uuid "93efce81-8af8-4457-8b4a-e5a8c92ef912")
-	)
-	(wire
-		(pts
-			(xy 41.91 100.33) (xy 41.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974ebeb4-defd-4388-a227-0563e77c8739")
 	)
 	(wire
 		(pts
@@ -5112,23 +4957,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 100.33) (xy 57.15 100.33)
+			(xy 22.86 100.33) (xy 57.15 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2760ce1-e1e7-43b0-8e35-d0d43c86559f")
-	)
-	(wire
-		(pts
-			(xy 16.51 100.33) (xy 41.91 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3dec8d4-9fa6-4bfa-bada-8cc942e8bac3")
 	)
 	(wire
 		(pts
@@ -5339,16 +5174,6 @@
 			(type default)
 		)
 		(uuid "d6d451d4-eeeb-4845-a743-c77116ff9816")
-	)
-	(wire
-		(pts
-			(xy 41.91 92.71) (xy 48.26 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d997f32a-8838-4258-8f4b-486e91d81b8d")
 	)
 	(wire
 		(pts
@@ -5609,6 +5434,16 @@
 			(justify right bottom)
 		)
 		(uuid "948f6c80-6a4c-4305-b653-b82502a5b082")
+	)
+	(label "VSYS"
+		(at 105.41 36.83 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a41110e9-e662-420a-8014-b8a7b4876960")
 	)
 	(label "BTN_PWR"
 		(at 219.71 29.21 180)
@@ -6079,6 +5914,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 217.0931 113.3444 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1688af7c-1a6f-480f-8190-bb359810110e")
+		(property "Reference" "H3"
+			(at 219.6331 112.0743 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 219.6331 114.6143 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 217.0931 113.3444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.0931 113.3444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 217.0931 113.3444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "powerBoard"
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 216.6095 102.9455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17572b3d-5ff3-46c7-b0ca-fb9f434d06cf")
+		(property "Reference" "H2"
+			(at 219.1495 101.6754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 219.1495 104.2154 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 216.6095 102.9455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 216.6095 102.9455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 216.6095 102.9455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "powerBoard"
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 163.83 39.37 0)
 		(unit 1)
@@ -6143,139 +6106,6 @@
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "1048_1")
-		(lib_id "chessLab-symbols:1048")
-		(at 41.91 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19253fd6-25c3-4d8d-b4e9-f03052e87f21")
-		(property "Reference" "U1"
-			(at 29.21 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT"
-			(at 29.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ChessLab:CONN4_1048_KEY"
-			(at 20.32 0.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=920"
-			(at 20.32 -99.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "KEYSTONE - 1048 - BATTERY HOLDER, 18650 LI-ION, 2CELL, SMD"
-			(at 41.91 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 20.32 -299.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "534-1048"
-			(at 20.32 -399.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/1048?qs=%2F7TOpeL5Mz5jXkg8vI8Dyw%3D%3D"
-			(at 20.32 -499.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Keystone Electronics"
-			(at 20.32 -599.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1048"
-			(at 20.32 -699.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "505a5dc8-af57-4634-99e7-071c0576276f")
-		)
-		(pin "3"
-			(uuid "7dc259cb-e87d-4d7d-891e-38588c838bba")
-		)
-		(pin "4"
-			(uuid "4095e64b-ea80-4fe1-a077-e9758b9f6bf3")
-		)
-		(pin "2"
-			(uuid "e1407563-9923-42a9-b06f-80efe5415893")
-		)
-		(pin "5"
-			(uuid "89c2c5df-0787-4e4f-94b5-cc3bf7025e76")
-		)
-		(pin "6"
-			(uuid "427d8024-0497-44a3-ac2e-7bf62f597da4")
-		)
-		(instances
-			(project "powerBoard"
-				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6440,7 +6270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 153.67 185.42 0)
 			(effects
 				(font
@@ -6710,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -7471,7 +7301,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 25.4 113.03 0)
+		(at 24.13 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7479,8 +7309,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a92c9d2-6700-4c09-8406-f7678f4d0266")
-		(property "Reference" "TP11"
-			(at 27.94 108.4579 0)
+		(property "Reference" "BAT+1"
+			(at 26.67 88.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,8 +7318,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 27.94 110.9979 0)
+		(property "Value" "BAT+"
+			(at 26.67 90.6779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,7 +7328,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 30.48 113.03 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7337,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 113.03 0)
+			(at 29.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7346,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 25.4 113.03 0)
+			(at 24.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7360,7 @@
 		(instances
 			(project ""
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
-					(reference "TP11")
+					(reference "BAT+1")
 					(unit 1)
 				)
 			)
@@ -7900,7 +7730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 45.72 20.32 0)
 			(effects
 				(font
@@ -8258,7 +8088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 175.26 33.02 0)
 			(effects
 				(font
@@ -8684,7 +8514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 71.12 59.69 0)
 			(effects
 				(font
@@ -9007,7 +8837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 97.79 158.75 0)
 			(effects
 				(font
@@ -9140,7 +8970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -9465,7 +9295,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 102.87 36.83 180)
+		(at 99.06 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9473,7 +9303,7 @@
 		(dnp no)
 		(uuid "b67d79ec-fb55-4107-b308-ed911b5b2e3f")
 		(property "Reference" "TP5"
-			(at 103.886 43.434 0)
+			(at 100.076 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,15 +9311,15 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 104.14 45.466 0)
+			(at 100.33 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 97.79 36.83 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 36.83 0)
+			(at 93.98 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9337,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 102.87 36.83 0)
+			(at 99.06 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,6 +9352,70 @@
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 217.335 121.5668 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7b8b418-a382-4ab0-8be4-66865c68a446")
+		(property "Reference" "H4"
+			(at 219.875 120.2967 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 219.875 122.8367 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 217.335 121.5668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.335 121.5668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 217.335 121.5668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "powerBoard"
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -9600,6 +9494,70 @@
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 215.9 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4f243ef-cb4d-4b56-85d4-78de6f9206db")
+		(property "Reference" "H1"
+			(at 218.44 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 218.44 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -9986,7 +9944,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 144.78 114.3 0)
 			(effects
 				(font
@@ -10094,7 +10052,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 113.03 0)
+		(at 22.86 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10102,26 +10060,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd80f26a-5f1a-427f-9156-d6c51ef87cbb")
-		(property "Reference" "TP12"
-			(at 41.91 108.4579 0)
+		(property "Reference" "BAT-1"
+			(at 19.558 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 41.91 110.9979 0)
+		(property "Value" "BAT-"
+			(at 19.558 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_4.0x4.0mm"
-			(at 44.45 113.03 0)
+			(at 22.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10086,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 113.03 0)
+			(at 22.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10095,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 113.03 0)
+			(at 22.86 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,71 +10109,7 @@
 		(instances
 			(project "powerBoard"
 				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 64.77 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4ccbbba-d844-481d-b95e-2c5d423a3f79")
-		(property "Reference" "TP2"
-			(at 65.786 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BAT"
-			(at 66.04 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7441e59-4db3-4d6b-9d47-b24fe9a0db33")
-		)
-		(instances
-			(project "powerBoard"
-				(path "/ef9a6e1c-7dcb-475c-bb8f-502c132c52b8"
-					(reference "TP2")
+					(reference "BAT-1")
 					(unit 1)
 				)
 			)
@@ -10316,7 +10208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 130.81 165.1 0)
 			(effects
 				(font
