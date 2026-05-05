@@ -68609,7 +68609,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,05"
+		(gr_text "15.05"
 			(at 172.975 21.06 0)
 			(layer "Dwgs.User")
 			(uuid "09f62e43-0e11-4674-b02f-a146cce408d8")
@@ -68647,7 +68647,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "14,97"
+		(gr_text "14.97"
 			(at 247.985 20.23 0)
 			(layer "Dwgs.User")
 			(uuid "4a62c61a-c736-49b6-a222-ab3feeb37be2")
@@ -68685,7 +68685,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "14,99"
+		(gr_text "14.99"
 			(at 83.095 20.18 0)
 			(layer "Dwgs.User")
 			(uuid "59b64032-e5df-47c1-9925-77499dccc335")
@@ -68723,7 +68723,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "14,99"
+		(gr_text "14.99"
 			(at 233.005 21.21 0)
 			(layer "Dwgs.User")
 			(uuid "6c4ce4b5-025c-4feb-8fdb-41f609d0d549")
@@ -68761,7 +68761,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,0665"
+		(gr_text "15.0665"
 			(at 143.023275 20.77 0)
 			(layer "Dwgs.User")
 			(uuid "6f3ca146-8577-44f0-b5bb-b73cde85e46c")
@@ -68799,7 +68799,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "14,95"
+		(gr_text "14.95"
 			(at 203.025 21.93 0)
 			(layer "Dwgs.User")
 			(uuid "71421ee2-b7d3-44ea-9757-94c078e4739d")
@@ -68837,7 +68837,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,06"
+		(gr_text "15.06"
 			(at 112.97 20.18 0)
 			(layer "Dwgs.User")
 			(uuid "8ffe4e7a-86b5-47d8-9295-c32a10e31ca7")
@@ -68875,7 +68875,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "15,01"
+		(gr_text "15.01"
 			(at 52.995 19.91 0)
 			(layer "Dwgs.User")
 			(uuid "cf874808-17ca-4e18-a32a-f277ff403f7f")
@@ -69027,7 +69027,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,5"
+		(gr_text "10.5"
 			(at 155.75 268.35 0)
 			(layer "Edge.Cuts")
 			(uuid "c8e66783-98cd-43f4-8f9b-47ea3b02c38f")
@@ -69065,7 +69065,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "10,5"
+		(gr_text "10.5"
 			(at 145.25 268.35 0)
 			(layer "Edge.Cuts")
 			(uuid "ecff0f40-028c-4811-8888-e7ed4e241415")
