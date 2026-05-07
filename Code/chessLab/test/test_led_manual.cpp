@@ -34,10 +34,8 @@ static void write_addr(int p0, int p1, int p2, int val) {
 static int read_hall_raw(int row, int col) {
     write_addr(DEC_A0, DEC_A1, DEC_A2, row);
     write_addr(SEL_S0, SEL_S1, SEL_S2, col);
-    delayMicroseconds(500);
-    int sum = 0;
-    for (int i = 0; i < 8; i++) sum += analogRead(HALL_DOUT);
-    return sum / 8;
+    delayMicroseconds(200);
+    return analogRead(HALL_DOUT);
 }
 
 // --- Calibration ---
@@ -148,56 +146,6 @@ void setup() {
     Serial.println("=== ChessLab — SS49E scan ===");
 }
 
-static void test_hall_manual() {
-    static int prev_row = -1, prev_col = -1;
-
-    int best_row = -1, best_col = -1, best_val = 0;
-
-    for (int row = 0; row < 8; row++) {
-        for (int col = 0; col < 8; col++) {
-            int d = abs(read_hall_raw(row, col) - baseline[row][col]);
-            if (d > best_val) {
-                best_val = d;
-                best_row = row;
-                best_col = col;
-            }
-        }
-    }
-
-    if (best_val < HALL_DEAD_ZONE) {
-        if (prev_row != -1) Serial.println("Aucun aimant détecté.");
-        prev_row = prev_col = -1;
-        return;
-    }
-
-    // on ne confirme que si la même case sort deux scans de suite
-    if (best_row == prev_row && best_col == prev_col) {
-        Serial.printf("Aimant en %c%d  (deviation=%d)\n", 'A' + best_row, best_col + 1, best_val);
-    }
-
-    prev_row = best_row;
-    prev_col = best_col;
-}
-
-static void test_decoder() {
-    Serial.println("=== Test décodeur ligne ===");
-    Serial.println("Pose l'aimant sur la colonne 1, puis note quelle ligne répond.");
-    Serial.println();
-    for (int row = 0; row < 8; row++) {
-        write_addr(DEC_A0, DEC_A1, DEC_A2, row);
-        delayMicroseconds(500);
-        int val = analogRead(HALL_DOUT);
-        Serial.printf("Adresse %d (A0=%d A1=%d A2=%d) → ADC=%d\n",
-            row,
-            (row >> 0) & 1,
-            (row >> 1) & 1,
-            (row >> 2) & 1,
-            val);
-    }
-    Serial.println();
-    delay(1000);
-}
-
 void loop() {
-    test_decoder();
+    test_led_manual();
 }
