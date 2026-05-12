@@ -32,12 +32,9 @@ static void write_addr(int p0, int p1, int p2, int val) {
 }
 
 static void select_row(int row) {
-    // DEC_A1 = group select (bit 2: 0=cols A-D, 1=cols E-H)
-    // DEC_A0 = within-group bit 1 (MSB)
-    // DEC_A2 = within-group bit 0 (LSB)
-    digitalWrite(DEC_A1, (row >> 2) & 1);
-    digitalWrite(DEC_A0, (row >> 1) & 1);
-    digitalWrite(DEC_A2, (row >> 0) & 1);
+    digitalWrite(DEC_A0, (row >> 0) & 1);
+    digitalWrite(DEC_A1, (row >> 1) & 1);
+    digitalWrite(DEC_A2, (row >> 2) & 1);
 }
 
 static void select_col(int col) {
@@ -207,11 +204,11 @@ static void test_decoder() {
         select_row(row);
         delayMicroseconds(500);
         int val = analogRead(HALL_DOUT);
-        Serial.printf("Ligne %c (A1=%d A0=%d A2=%d) → ADC=%d\n",
+        Serial.printf("Ligne %c (A0=%d A1=%d A2=%d) → ADC=%d\n",
             'A' + row,
-            (row >> 2) & 1,
-            (row >> 1) & 1,
             (row >> 0) & 1,
+            (row >> 1) & 1,
+            (row >> 2) & 1,
             val);
     }
     Serial.println();

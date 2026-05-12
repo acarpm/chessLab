@@ -14,10 +14,12 @@
 #define HALL_RANGE       500
 #define HALL_DEAD_ZONE    40
 #define COL_OFFSET         1  // ajuste si les LEDs sont décalées par rapport aux capteurs
+#define FADE_DECAY      0.97f // per-scan decay: ~2s fade at 50ms/scan
 
 Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-static int baseline[8][8];
+static int   baseline[8][8];
+static float fade[8][8];
 
 // --- Utilitaires bas niveau ---
 
@@ -31,9 +33,24 @@ static void write_addr(int p0, int p1, int p2, int val) {
     digitalWrite(p2, (val >> 2) & 1);
 }
 
+static void select_row(int row) {
+    digitalWrite(DEC_A0, (row >> 0) & 1);
+    digitalWrite(DEC_A1, (row >> 1) & 1);
+    digitalWrite(DEC_A2, (row >> 2) & 1);
+}
+
+static void select_col(int col) {
+    // SEL_S1 = group select (bit 2: 0=rows A-D, 1=rows E-H)
+    // SEL_S0 = within-group bit 1 (MSB)
+    // SEL_S2 = within-group bit 0 (LSB)
+    digitalWrite(SEL_S1, (col >> 2) & 1);
+    digitalWrite(SEL_S0, (col >> 1) & 1);
+    digitalWrite(SEL_S2, (col >> 0) & 1);
+}
+
 static int read_hall_raw(int row, int col) {
-    write_addr(DEC_A0, DEC_A1, DEC_A2, row);
-    write_addr(SEL_S0, SEL_S1, SEL_S2, col);
+    select_row(row);
+    select_col(col);
     delayMicroseconds(500);
     int sum = 0;
     for (int i = 0; i < 8; i++) sum += analogRead(HALL_DOUT);
@@ -183,12 +200,14 @@ static void test_decoder() {
     Serial.println("=== Test décodeur ligne ===");
     Serial.println("Pose l'aimant sur la colonne 1, puis note quelle ligne répond.");
     Serial.println();
+    select_col(0);  // fix column mux to col 0
+    delayMicroseconds(200);
     for (int row = 0; row < 8; row++) {
-        write_addr(DEC_A0, DEC_A1, DEC_A2, row);
+        select_row(row);
         delayMicroseconds(500);
         int val = analogRead(HALL_DOUT);
-        Serial.printf("Adresse %d (A0=%d A1=%d A2=%d) → ADC=%d\n",
-            row,
+        Serial.printf("Ligne %c (A0=%d A1=%d A2=%d) → ADC=%d\n",
+            'A' + row,
             (row >> 0) & 1,
             (row >> 1) & 1,
             (row >> 2) & 1,
