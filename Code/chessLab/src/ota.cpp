@@ -24,12 +24,15 @@ static bool wifi_connect_sta() {
         LOG(".");
     }
     LOG("\n[WiFi] STA connecté — IP: %s\n", WiFi.localIP().toString().c_str());
+    // Désactiver le sleep WiFi — réduit fortement le bruit ADC sur ESP32
+    WiFi.setSleep(false);
     return true;
 }
 
 static void wifi_start_ap() {
     WiFi.mode(WIFI_AP);
     WiFi.softAP(AP_SSID, AP_PASSWORD);
+    WiFi.setSleep(false);
     LOG("[WiFi] Mode AP — SSID: '%s'  IP: %s\n",
                   AP_SSID, WiFi.softAPIP().toString().c_str());
 }

@@ -30,8 +30,21 @@ void sensors_select_col(int col) {
 int sensors_read_raw(int row, int col) {
     sensors_select_col(col);
     sensors_select_row(row);
-    delayMicroseconds(500);
+    delayMicroseconds(1500);
+
+    // Moyenne tronquée : jeter les 4 extrêmes pour éliminer les pics WiFi
+    const int N = 20, TRIM = 4;
+    int s[N];
+    for (int i = 0; i < N; i++) s[i] = analogRead(HALL_DOUT);
+
+    // Tri par insertion (N petit, pas besoin de qsort)
+    for (int i = 1; i < N; i++) {
+        int key = s[i], j = i - 1;
+        while (j >= 0 && s[j] > key) { s[j+1] = s[j]; j--; }
+        s[j+1] = key;
+    }
+
     int sum = 0;
-    for (int i = 0; i < 8; i++) sum += analogRead(HALL_DOUT);
-    return sum / 8;
+    for (int i = TRIM; i < N - TRIM; i++) sum += s[i];
+    return sum / (N - 2 * TRIM);
 }
