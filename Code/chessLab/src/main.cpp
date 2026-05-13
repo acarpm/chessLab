@@ -27,6 +27,7 @@ void loop() {
     hall_scan(dev);
     leds_update(dev);
     game_update(dev);
+    web_broadcast_state(dev);
     web_update();
     ota_update();
 }
