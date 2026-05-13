@@ -13,7 +13,8 @@
 #define DEC_A2           17
 #define HALL_RANGE       500
 #define HALL_DEAD_ZONE    40
-#define COL_OFFSET         1  
+#define COL_OFFSET         0  
+#define THRESHOLD          75
 #define FADE_DECAY      0.97f 
 
 Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
@@ -95,7 +96,7 @@ static void update_leds(int dev[8][8]) {
     for (int row = 0; row < 8; row++) {
         for (int col = 0; col < 8; col++) {
             int d = dev[row][col];
-            if (d < 500) continue;
+            if (d < THRESHOLD) continue;
             if (row > 0 && dev[row-1][col] >= d) continue;
             if (row < 7 && dev[row+1][col] >= d) continue;
             if (col > 0 && dev[row][col-1] >= d) continue;
@@ -143,5 +144,5 @@ void setup() {
 void loop() {
     dump_grid();
     update_leds(val);
-    delay(1000);
+    //delay(100);
 }
