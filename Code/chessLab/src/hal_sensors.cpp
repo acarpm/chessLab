@@ -30,14 +30,17 @@ void sensors_select_col(int col) {
 int sensors_read_raw(int row, int col) {
     sensors_select_col(col);
     sensors_select_row(row);
-    delayMicroseconds(1500);
+    delayMicroseconds(2000);  // stabilisation mux
 
-    // Moyenne tronquée : jeter les 4 extrêmes pour éliminer les pics WiFi
-    const int N = 20, TRIM = 4;
+    // 30 échantillons espacés de 60 µs : les pics WiFi n'affectent que quelques samples
+    // Moyenne tronquée (jeter 6 extremes) → robuste aux rafales WiFi
+    const int N = 30, TRIM = 6;
     int s[N];
-    for (int i = 0; i < N; i++) s[i] = analogRead(HALL_DOUT);
+    for (int i = 0; i < N; i++) {
+        s[i] = analogRead(HALL_DOUT);
+        delayMicroseconds(60);
+    }
 
-    // Tri par insertion (N petit, pas besoin de qsort)
     for (int i = 1; i < N; i++) {
         int key = s[i], j = i - 1;
         while (j >= 0 && s[j] > key) { s[j+1] = s[j]; j--; }

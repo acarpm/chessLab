@@ -23,11 +23,33 @@ void setup() {
 
 void loop() {
     static int dev[BOARD_SIZE][BOARD_SIZE];
+    static int start_ok_frames = 0;
+
     logger_update();
-    hall_scan(dev);
-    leds_update(dev);
-    game_update(dev);
-    web_broadcast_state(dev);
+
+    // WiFi d'abord : vider la file d'envoi/réception avant de toucher l'ADC
     web_update();
     ota_update();
+
+    hall_scan(dev);  // ADC après le flush WiFi → moins d'interférences
+
+    if (game_get_phase() == GAME_SETUP) {
+        leds_animate_setup(dev);
+
+        if (game_check_start_position(dev)) {
+            if (++start_ok_frames >= 5) {
+                game_set_phase(GAME_PLAYING);
+                LOG("=== Position de départ validée — jeu commence ===\n");
+                leds_flash_green();
+                start_ok_frames = 0;
+            }
+        } else {
+            start_ok_frames = 0;
+        }
+    } else {
+        leds_update(dev);
+    }
+
+    game_update(dev);
+    web_broadcast_state(dev);  // mis en file, sera transmis au prochain web_update()
 }

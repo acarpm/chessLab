@@ -23,3 +23,7 @@
 #define HALL_DEAD_ZONE  40
 #define THRESHOLD       75
 #define COL_OFFSET       0
+
+// Validation position de départ : nombre minimum de pièces par colonne cible (0,1,6,7)
+// Mettre à 8 pour exiger les 32 pièces complètes en jeu réel ; 1 pour tester avec peu d'aimants
+#define START_MIN_PER_COL  1
