@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CDRH4D28NP-2R2NC
+D Fixed Inductors 2.2uH 2.04A 23.2Mohm
+K
+F https://products.sumida.com/products/pdf/CDRH4D28.pdf
+$ENDCMP
+#
+#End Doc Library
