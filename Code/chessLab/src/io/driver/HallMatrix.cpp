@@ -1,5 +1,5 @@
-#include "io/driver/HallMatrix.h"
-#include "io/hal/HallSensor.h"
+#include "io/driver/HallMatrix.hpp"
+#include "io/hal/HallSensor.hpp"
 
 HallMatrix::HallMatrix()
 {

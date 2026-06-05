@@ -1,7 +1,7 @@
 #include <Arduino.h>
-#include "io/hal/HallSensor.h"
-#include "const/gpio_pins.h"
-#include "const/board_config.h"
+#include "io/hal/HallSensor.hpp"
+#include "const/gpio_pins.hpp"
+#include "const/board_config.hpp"
 
 HallSensor::HallSensor()
 {

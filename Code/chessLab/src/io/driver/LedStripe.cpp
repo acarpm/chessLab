@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
-#include "io/driver/LedStripe.h"
+#include "io/driver/LedStripe.hpp"
 
 Adafruit_NeoPixel LedStripe::strip(BOARD_SQUARES, LED_PIN, NEO_GRB + NEO_KHZ800);
 

@@ -1,7 +1,7 @@
 #pragma once
 
 #include <Arduino.h>
-#include "const/board_config.h"
+#include "const/board_config.hpp"
 
 struct HallSquareState
 {

@@ -1,6 +1,7 @@
+#pragma once
 #include <Adafruit_NeoPixel.h>
-#include "const/board_config.h"
-#include "const/gpio_pins.h"
+#include "const/board_config.hpp"
+#include "const/gpio_pins.hpp"
 
 class LedStripe
 {

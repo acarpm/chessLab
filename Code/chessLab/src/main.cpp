@@ -1,6 +1,6 @@
-#include "const/board_config.h"
-#include "io/driver/HallMatrix.h"
-#include "io/driver/LedStripe.h"
+#include "const/board_config.hpp"
+#include "io/driver/HallMatrix.hpp"
+#include "io/driver/LedStripe.hpp"
 
 void init_serial()
 {
