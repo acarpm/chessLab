@@ -8,9 +8,9 @@ LedStripe::LedStripe()
 {
 }
 
-int LedStripe::to_index(int row, int col)
+uint8_t LedStripe::to_index(uint8_t col, uint8_t row)
 {
-  return row * BOARD_SIZE + col;
+  return col * BOARD_SIZE + row;
 }
 
 LedStripe &LedStripe::getInstance()
@@ -33,12 +33,12 @@ void LedStripe::begin()
 
 void LedStripe::show_active(bool (&board)[BOARD_SIZE][BOARD_SIZE])
 {
-  for (int row = 0; row < BOARD_SIZE; row++)
+  for (uint8_t row = 0; row < BOARD_SIZE; row++)
   {
-    for (int col = 0; col < BOARD_SIZE; col++)
+    for (uint8_t col = 0; col < BOARD_SIZE; col++)
     {
-      int index = to_index(row, col);
-      if (board[row][col])
+      uint8_t index = to_index(col, row);
+      if (board[col][row])
       {
         strip.setPixelColor(index, strip.Color(0, 255, 0));
       }

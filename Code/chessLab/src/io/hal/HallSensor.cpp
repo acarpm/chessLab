@@ -16,27 +16,27 @@ HallSensor &HallSensor::getInstance()
   return instance;
 }
 
-void HallSensor::select_row(int row)
+void HallSensor::select_col(uint8_t col)
 {
-  digitalWrite(DEC_A0, row & 1);
-  digitalWrite(DEC_A1, (row >> 1) & 1);
-  digitalWrite(DEC_A2, (row >> 2) & 1);
+  digitalWrite(DEC_A0, col & 1);
+  digitalWrite(DEC_A1, (col >> 1) & 1);
+  digitalWrite(DEC_A2, (col >> 2) & 1);
 }
 
-void HallSensor::select_col(int col)
+void HallSensor::select_row(uint8_t row)
 {
-  digitalWrite(SEL_S0, col & 1);
-  digitalWrite(SEL_S1, (col >> 1) & 1);
-  digitalWrite(SEL_S2, (col >> 2) & 1);
+  digitalWrite(SEL_S0, row & 1);
+  digitalWrite(SEL_S1, (row >> 1) & 1);
+  digitalWrite(SEL_S2, (row >> 2) & 1);
 }
 
-int HallSensor::read(int row, int col)
+int HallSensor::read(uint8_t col, uint8_t row)
 {
-  select_row(row);
   select_col(col);
+  select_row(row);
   delayMicroseconds(50);
 
-  const int N = 30, TRIM = 6;
+  const uint8_t N = 30, TRIM = 6;
   int samples[N];
   for (int i = 0; i < N; i++)
   {
@@ -44,7 +44,6 @@ int HallSensor::read(int row, int col)
     delayMicroseconds(10);
   }
 
-  // Tri par insertion
   for (int i = 1; i < N; i++)
   {
     int key = samples[i], j = i - 1;

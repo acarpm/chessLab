@@ -3,9 +3,9 @@
 
 HallMatrix::HallMatrix()
 {
-  for (int row = 0; row < BOARD_SIZE; row++)
-    for (int col = 0; col < BOARD_SIZE; col++)
-      squares[row][col] = false;
+  for (uint8_t col = 0; col < BOARD_SIZE; col++)
+    for (uint8_t row = 0; row < BOARD_SIZE; row++)
+      squares[col][row] = false;
 }
 
 HallMatrix &HallMatrix::getInstance()
@@ -14,10 +14,10 @@ HallMatrix &HallMatrix::getInstance()
   return instance;
 }
 
-void HallMatrix::updateCell(int row, int col)
+void HallMatrix::updateCell(uint8_t col, uint8_t row)
 {
-  HallSquareState &cell = grid[row][col];
-  int value = hallSensor.read(row, col);
+  HallSquareState &cell = grid[col][row];
+  uint16_t value = hallSensor.read(col, row);
   cell.raw = value;
 
   bool new_occupied = abs(value - BASE_VALUE) > OFFSET;
@@ -32,25 +32,52 @@ void HallMatrix::updateCell(int row, int col)
   if (millis() - cell.last_change > STABLE_TIME_MS)
   {
     cell.stable = true;
-    squares[row][col] = cell.occupied;
+    squares[col][row] = cell.occupied;
   }
 }
 
 void HallMatrix::update()
 {
-  for (int row = 0; row < BOARD_SIZE; row++)
-    for (int col = 0; col < BOARD_SIZE; col++)
-      updateCell(row, col);
-}
-
-bool HallMatrix::isOccupied(int row, int col)
-{
-  return squares[row][col];
+  for (uint8_t row = 0; row < BOARD_SIZE; row++)
+    for (uint8_t col = 0; col < BOARD_SIZE; col++)
+      updateCell(col, row);
 }
 
 void HallMatrix::getSquares(bool (&result)[BOARD_SIZE][BOARD_SIZE])
 {
-  for (int row = 0; row < BOARD_SIZE; row++)
-    for (int col = 0; col < BOARD_SIZE; col++)
-      result[row][col] = squares[row][col];
+  for (uint8_t col = 0; col < BOARD_SIZE; col++)
+    for (uint8_t row = 0; row < BOARD_SIZE; row++)
+      result[col][row] = squares[col][row];
+}
+
+uint32_t last_dump_ms = 0;
+
+void HallMatrix::dump()
+{
+  if (last_dump_ms != 0 && millis() - last_dump_ms < 1000)
+    return;
+
+  last_dump_ms = millis();
+
+  bool board[BOARD_SIZE][BOARD_SIZE];
+  hallMatrix.getSquares(board);
+
+  char out[512];
+  size_t pos = 0;
+
+  pos += snprintf(out + pos, sizeof(out) - pos, "\n  A B C D E F G H\n");
+
+  for (int8_t row = BOARD_SIZE - 1; row >= 0; row--)
+  {
+    pos += snprintf(out + pos, sizeof(out) - pos, "%d ", row + 1);
+
+    for (uint8_t col = 0; col < BOARD_SIZE; col++)
+    {
+      pos += snprintf(out + pos, sizeof(out) - pos, "%c ", board[col][row] ? 'X' : '.');
+    }
+
+    pos += snprintf(out + pos, sizeof(out) - pos, "\n");
+  }
+
+  Serial.print(out);
 }

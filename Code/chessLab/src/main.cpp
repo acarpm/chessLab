@@ -28,6 +28,7 @@ void loop()
 
   bool board[BOARD_SIZE][BOARD_SIZE];
   hallMatrix.getSquares(board);
-
   ledStripe.show_active(board);
+
+  hallMatrix.dump();
 }

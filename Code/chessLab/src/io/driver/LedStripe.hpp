@@ -9,7 +9,7 @@ private:
   static Adafruit_NeoPixel strip;
 
   LedStripe();
-  int to_index(int row, int col);
+  uint8_t to_index(uint8_t row, uint8_t col);
 
 public:
   static LedStripe &getInstance();

@@ -22,13 +22,14 @@ private:
   bool squares[BOARD_SIZE][BOARD_SIZE];
 
   HallMatrix();
-  void updateCell(int row, int col);
+  void updateCell(uint8_t row, uint8_t col);
 
 public:
   static HallMatrix &getInstance();
   void update();
-  bool isOccupied(int row, int col);
   void getSquares(bool (&result)[BOARD_SIZE][BOARD_SIZE]);
+
+  void dump();
 };
 
 #define hallMatrix HallMatrix::getInstance()
