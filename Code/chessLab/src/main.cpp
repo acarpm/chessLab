@@ -1,5 +1,6 @@
 #include "const/board_config.h"
 #include "io/driver/HallMatrix.h"
+#include "io/driver/LedStripe.h"
 
 void init_serial()
 {
@@ -10,33 +11,23 @@ void init_serial()
   }
   delay(200);
   Serial.setTimeout(30000);
-  Serial.print('\n');
 }
 
 void setup()
 {
   init_serial();
   Serial.print("ChessLab Starting...\n");
+  delay(100);
+
+  ledStripe.begin();
 }
 
 void loop()
 {
-  Serial.print('\n');
   hallMatrix.update();
 
-  bool squares[BOARD_SIZE][BOARD_SIZE];
-  hallMatrix.getSquares(squares);
+  bool board[BOARD_SIZE][BOARD_SIZE];
+  hallMatrix.getSquares(board);
 
-  for (int row = 0; row < BOARD_SIZE; row++)
-  {
-    char line[BOARD_SIZE * 2 + 1];
-    for (int col = 0; col < BOARD_SIZE; col++)
-    {
-      line[col * 2] = squares[row][col] ? 'X' : '.';
-      line[col * 2 + 1] = ' ';
-    }
-    line[BOARD_SIZE * 2] = '\0';
-    Serial.printf("|%s\n", line);
-  }
-  Serial.print("\n");
+  ledStripe.show_active(board);
 }

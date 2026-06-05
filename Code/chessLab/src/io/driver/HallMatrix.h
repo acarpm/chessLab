@@ -15,13 +15,13 @@ class HallMatrix
 {
 private:
   static const int BASE_VALUE = 1600;
-  static const int OFFSET = 200;
+  static const int OFFSET = 150;
   static const uint32_t STABLE_TIME_MS = 300;
 
   HallSquareState grid[BOARD_SIZE][BOARD_SIZE];
   bool squares[BOARD_SIZE][BOARD_SIZE];
 
-  HallMatrix(); // Constructeur privé
+  HallMatrix();
   void updateCell(int row, int col);
 
 public:

@@ -16,19 +16,18 @@ HallSensor &HallSensor::getInstance()
   return instance;
 }
 
-void HallSensor::select_col(int col)
-{
-  digitalWrite(DEC_A0, col & 1);
-  digitalWrite(DEC_A1, (col >> 1) & 1);
-  digitalWrite(DEC_A2, (col >> 2) & 1);
-}
-
 void HallSensor::select_row(int row)
 {
-  row = (BOARD_SIZE - 1) - row;
-  digitalWrite(SEL_S0, row & 1);
-  digitalWrite(SEL_S1, (row >> 1) & 1);
-  digitalWrite(SEL_S2, (row >> 2) & 1);
+  digitalWrite(DEC_A0, row & 1);
+  digitalWrite(DEC_A1, (row >> 1) & 1);
+  digitalWrite(DEC_A2, (row >> 2) & 1);
+}
+
+void HallSensor::select_col(int col)
+{
+  digitalWrite(SEL_S0, col & 1);
+  digitalWrite(SEL_S1, (col >> 1) & 1);
+  digitalWrite(SEL_S2, (col >> 2) & 1);
 }
 
 int HallSensor::read(int row, int col)
