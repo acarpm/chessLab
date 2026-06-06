@@ -6,8 +6,8 @@
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    ESP32-C6                          │
-│  WiFi 6 · BLE 5 · RISC-V 160MHz · 512KB SRAM       │
+│                    ESP32-C6                         │
+│  WiFi 6 · BLE 5 · RISC-V 160MHz · 512KB SRAM        │
 └──────┬──────────────┬───────────────┬───────────────┘
        │              │               │
   Hall Sensors    RGB LEDs        Power Mgmt
@@ -60,14 +60,14 @@
 
 ## 🖥️ Firmware ESP32-C6 — Stack logiciel
 
-\```
+```
 FreeRTOS
 ├── Task: Hall Scanner (polling 50ms, 64 sensors)
 ├── Task: LED Controller (état échiquier → animation)
 ├── Task: Chess Engine (position légale, coups valides)
 ├── Task: BLE/WiFi (app mobile / web interface)
 └── Task: Battery Monitor (ADC sur voltage divider)
-\```
+```
 
 **Libs utiles :**
 - `FastLED` ou `Adafruit NeoPixel` pour WS2812B
@@ -157,20 +157,22 @@ Connecteurs entre les cartes :
   - Pin 4 : 3.3V (AMS1117 output vers main board)
 
 ## Pinout ESP32
-13 -> GPIO12 = D-
-14 -> GPIO13 = D+
-8  -> GPIO0  = S0 (mux sélection canal)
-9  -> GPIO1  = S1
-27  -> GPIO2  = S2
-16  -> GPIO18  = A0 (74HC138 sélection rangée)
-25 -> GPIO16  = A1
-24 -> GPIO17  = A2
-26 -> GPIO3  = A_OUT(lecture capteurs Hall)
-17 -> GPIO19  = DATA WS2812B (via 33Ω)
-18 -> GPIO20  = VBAT
-15 -> GPIO9  = BOOT button (déjà prévu)
-19 -> GPIO21 = BTN_PWR (lecture bouton power)
-20 -> GPIO22  = PWR_HOLD (maintien alimentation)
+| N° |  GPIO  | Utilisation |
+|----|--------|-------------|
+| 13 | GPIO12 | D-
+| 14 | GPIO13 | D+
+| 8  | GPIO0  | S0 (mux sélection canal)
+| 9  | GPIO1  | S1
+| 27 | GPIO2  | S2
+| 16 | GPIO18 | A0 (74HC138 sélection rangée)
+| 25 | GPIO16 | A1
+| 24 | GPIO17 | A2
+| 26 | GPIO3  | A_OUT(lecture capteurs Hall)
+| 17 | GPIO19 | DATA WS2812B (via 33Ω)
+| 18 | GPIO20 | VBAT
+| 15 | GPIO9  | BOOT button (déjà prévu)
+| 19 | GPIO21 | BTN_PWR (lecture bouton power)
+| 20 | GPIO22 | PWR_HOLD (maintien alimentation)
 
 Signal (données, GPIO)  : 0.25mm
 Alimentation 3.3V       : 0.5mm
