@@ -1,11 +1,20 @@
 #include "io/driver/HallMatrix.hpp"
 #include "io/hal/HallSensor.hpp"
 
-HallMatrix::HallMatrix()
+HallMatrix::HallMatrix() : squares(0), last_dump_ms(0) {}
+
+void HallMatrix::write_square(uint8_t col, uint8_t row, bool value)
 {
-  for (uint8_t col = 0; col < BOARD_SIZE; col++)
-    for (uint8_t row = 0; row < BOARD_SIZE; row++)
-      squares[col][row] = false;
+  uint8_t bit = row * BOARD_SIZE + col;
+  if (value)
+    squares |= (1ULL << bit);
+  else
+    squares &= ~(1ULL << bit);
+}
+
+bool HallMatrix::read_square(uint8_t col, uint8_t row) const
+{
+  return (squares >> (row * BOARD_SIZE + col)) & 1;
 }
 
 HallMatrix &HallMatrix::getInstance()
@@ -32,7 +41,7 @@ void HallMatrix::updateCell(uint8_t col, uint8_t row)
   if (millis() - cell.last_change > STABLE_TIME_MS)
   {
     cell.stable = true;
-    squares[col][row] = cell.occupied;
+    write_square(col, row, cell.occupied);
   }
 }
 
@@ -43,16 +52,14 @@ void HallMatrix::update()
       updateCell(col, row);
 }
 
-void HallMatrix::getSquares(bool (&result)[BOARD_SIZE][BOARD_SIZE])
+void HallMatrix::getSquares(bool (&result)[BOARD_SIZE][BOARD_SIZE]) const
 {
   for (uint8_t col = 0; col < BOARD_SIZE; col++)
     for (uint8_t row = 0; row < BOARD_SIZE; row++)
-      result[col][row] = squares[col][row];
+      result[col][row] = read_square(col, row);
 }
 
-uint32_t last_dump_ms = 0;
-
-void HallMatrix::dump()
+void HallMatrix::dump() const
 {
   if (last_dump_ms != 0 && millis() - last_dump_ms < 1000)
     return;
