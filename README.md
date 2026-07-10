@@ -16,9 +16,9 @@
 
 ## Hardware
 
-### Capteurs de position — A3144
+### Capteurs de position — SS49E
 
-Capteur à effet Hall digital (sortie tout-ou-rien), suffisant pour détecter la présence ou l'absence d'une pièce sur une case. Choisi pour sa simplicité de mise en œuvre et son faible coût.
+Capteur à effet Hall Analogique, suffisant pour détecter la présence ou l'absence d'une pièce sur une case. 
 
 ### LEDs — WS2812B (NeoPixel)
 
@@ -85,7 +85,7 @@ BTN_PWR                          (MT3608 + AMS1117)
 | ESP32-C6 | TP4056 |
 | Connecteur USB-C | DW01A + FS8205A |
 | 64× WS2812B | Connecteur 18650 |
-| 64× A3144 | MT3608 (5 V) |
+| 64× SS49E | MT3608 (5 V) |
 | 8× 74HC4051 | AMS1117 (3,3 V) |
 | 1× 74HC138 | Commutation MOSFET |
 | BTN_BOOT + BTN_RESET | BTN_PWR + LED power |
